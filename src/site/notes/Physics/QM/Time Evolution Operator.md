@@ -7,10 +7,11 @@ The time evolution operator in quantum mechanics is a unitary operator that desc
 $$U(t) \qquad \text{or} \qquad U(t,t_0)$$
 where $t$ is the final time and $t_0$ is the initial time. The time evolution operator satisfies the following properties:
 1. It reduces to the identity operator when
-  $$t=t_0 \longrightarrow U(t_0,t_0) = I$$
+   $$t=t_0 \longrightarrow U(t_0,t_0) = I$$
 1. It preserves the norm of the state vector
-  $$\langle \psi(t)|\psi(t)\rangle = \langle \psi(t_0)|\psi(t_0)\rangle$$
-   for any state vector $|\psi\rangle$. This implies that $U(t,t_0)$ is unitary, that is, $$U^\dagger (t,t_0) = U^{-1}(t,t_0)$$
+   $$\langle \psi(t)|\psi(t)\rangle = \langle \psi(t_0)|\psi(t_0)\rangle$$
+   for any state vector $|\psi\rangle$. This implies that $U(t,t_0)$ is unitary, that is, 
+   $$U^\dagger (t,t_0) = U^{-1}(t,t_0)$$
 1. It satisfies the composition rule
    $$U(t_2,t_1)U(t_1,t_0) = U(t_2,t_0)$$
    for any times $t_0 \leq t_1 \leq t_2$. This means that the time evolution operator is independent of the intermediate steps.
